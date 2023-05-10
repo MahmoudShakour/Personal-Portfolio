@@ -2,7 +2,7 @@
     align-self: stretch;
     padding: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-top: 1px solid black;
 }
@@ -10,4 +10,18 @@
 .copyrights{
     font-size: 18px;
     font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+    
+    .copyrights{
+        font-size: 15px;
+        font-weight: normal;
+    }
 }

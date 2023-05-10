@@ -85,3 +85,21 @@
     border-radius: 15px;
 }
 
+
+@media (max-width: 800px){
+    .contact{
+        padding: 50px;
+        max-width: 100%;
+    }
+    .contact-body{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .personal-info{
+        gap: 20px;
+    }
+
+    
+}

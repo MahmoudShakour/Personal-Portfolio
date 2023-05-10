@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import "../Styles/About.css";
 import img from "../Assets/Images/img.jpg";
-import smallImage from "../Assets/Images/img-smallversion.jpg";
 import twitterIcon from "../Assets/Images/twitter.svg";
 import linkedinIcon from "../Assets/Images/linkedin.svg";
 import githubIcon from "../Assets/Images/github.svg";
@@ -18,10 +17,10 @@ function About(){
                     </div>
                     <div className="icons">
                         <a href="https://github.com/mahmoudali1842001">
-                            <img className="icon" src={linkedinIcon} />                        
+                            <img className="icon" src={githubIcon} />                        
                         </a>
                         <a href="https://www.linkedin.com/in/mahmoud-abdulshakour-056703168/">
-                            <img className="icon" src={githubIcon} />
+                            <img className="icon" src={linkedinIcon} />
                         </a>
                         <a href="https://twitter.com/lipf6_">
                             <img className="icon" src={twitterIcon} />                        
