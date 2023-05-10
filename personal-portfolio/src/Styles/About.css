@@ -72,10 +72,11 @@
     }
 
     .profile-image{
-        max-width: 320px;
+        max-width: min(320px,100%);
     }
     .profile-image-container{
-        align-self: center;
+        display: flex;
+        justify-content: center;
         order: 1;
     }
 
@@ -83,6 +84,11 @@
         order: 2;
         gap: 25px;
     }
+
+    .name{
+        font-size: 40px;
+        font-weight: 600;
+    }  
 
     .icons{
         justify-content:center;

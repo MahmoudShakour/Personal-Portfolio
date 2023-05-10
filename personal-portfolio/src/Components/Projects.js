@@ -10,7 +10,7 @@ function Projects(){
                 <button>All</button>
                 <button>javascript</button>
                 <button>react</button>
-                <button>node js</button>
+                <button>node.js</button>
             </div>
             <div className="projects-container">
             {
