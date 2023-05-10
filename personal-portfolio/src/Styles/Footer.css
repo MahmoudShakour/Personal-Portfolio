@@ -1,0 +1,13 @@
+.footer-section{
+    align-self: stretch;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.copyrights{
+    font-size: 18px;
+    font-weight: bold;
+}

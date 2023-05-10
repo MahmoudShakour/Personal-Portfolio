@@ -1,0 +1,87 @@
+.contact{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 900px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.contact-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contact-text{
+    font-size: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.contact-form>*{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.contact-form>button{
+    border-radius: 15px;
+    transition: transform 1s;
+    align-self: center;
+
+}
+
+
+.contact-form>button:hover{
+    transform: scale(1.1);
+}
+
+.contact-body{
+    display: flex;
+    gap: 90px;
+    align-self: stretch;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.personal-info > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-element > input,
+.form-element > textarea{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+

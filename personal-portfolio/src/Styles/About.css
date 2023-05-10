@@ -1,0 +1,46 @@
+.about{
+    max-width: 1000px;
+    align-self: center;
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid black;
+    padding: 50px;
+}
+
+.name-description-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+
+.description{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icon{
+    max-width: 50px;
+}
+
+.about-button{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
