@@ -9,6 +9,11 @@
 
 .project-card-image{
     border-radius: 23px;
+    max-width: 350px;
+}
+
+.project-card-image-container{
+    align-self: center;
 }
 
 .project-card-tech-stack{
@@ -38,4 +43,11 @@
     display: flex;
     justify-content: space-around;
     padding: 10px;
+}
+
+@media (max-width:800px){
+    .project-card-image{
+        max-width: 450px;
+        padding: 10px;
+    }
 }

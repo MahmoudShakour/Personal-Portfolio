@@ -4,7 +4,7 @@ import Project from "./Project";
 
 function Projects(){
     return(
-        <div className="projects-section">
+        <div id="projects"  className="projects-section">
             <div className="project-title" >Projects</div>
             <div className="project-filter" >
                 <button>All</button>

@@ -1,13 +1,16 @@
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 30px;
-    position: sticky;
     align-items: center;
 }
 
-.header-name{
-    font-size: 40px;
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-    font-style: bold;
+.dark-mood-icon{
+    max-width: 60px;
+    transition: transform 0.5s;
+}
+
+
+.dark-mood-icon:hover{
+    transform: scale(1.4);
 }

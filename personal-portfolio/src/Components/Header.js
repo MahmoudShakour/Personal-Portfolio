@@ -1,10 +1,10 @@
 import "../Styles/Header.css";
+import darkModeIcon from "../Assets/Images/darkmood.svg";
 
 function Header(){
     return(
         <div className="header">
-            <div className="header-name" >Mahmoud Abdulshakour</div>
-            <img className="header-dark-mode" alt="dark mode" />
+            <img className="dark-mood-icon" src={darkModeIcon} alt="darkModeIcon"/>
         </div>
     );
 }

@@ -16,7 +16,7 @@
 .name{
     font-size: 50px;
     font-weight: 800;
-}
+}   
 
 .profile-image{
     border-radius: 50%;
@@ -33,7 +33,9 @@
 }
 
 .icon{
-    max-width: 50px;
+     min-width: 22px;
+     max-width: 25px;
+     padding: 3px;
 }
 
 .about-button{
@@ -41,6 +43,58 @@
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
+    background-color: rgb(187, 177, 177);
+    transition: background-color 0.25s;
+    transition: transform 0.25s;
+}
+
+.about-button:hover{
+    background-color: rgb(100, 96, 96);
+    transform: scale(1.05);
+}
+
+.about-buttons{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        border-bottom: 1px solid black;
+        padding: 50px;
+    }
+
+    .profile-image{
+        max-width: 320px;
+    }
+    .profile-image-container{
+        align-self: center;
+        order: 1;
+    }
+
+    .name-description-section{
+        order: 2;
+        gap: 25px;
+    }
+
+    .icons{
+        justify-content:center;
+    }
+
+    .description{
+        font-size: 20px;
+    }
+
+    .about-buttons{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
 }
